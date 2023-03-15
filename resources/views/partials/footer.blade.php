@@ -6,7 +6,7 @@
                     <h3>DC Comics</h3>
                     <ul>
                         <li><a class="{{Route::currentRouteName()=='characters' ? 'active' :''}} }}" href="{{route('characters')}}">Characters</a></li>
-                        <li><a class="{{Route::currentRouteName()=='comics' || Route::currentRouteName()=='comic-details' ? 'active' :''}}" href="{{route('comics')}}">Comics</a></li>
+                        {{-- <li><a class="{{Route::currentRouteName()=='comics' || Route::currentRouteName()=='comic-details' ? 'active' :''}}" href="{{route('comics')}}">Comics</a></li> --}}
                         <li><a class="{{Route::currentRouteName()=='movies' ? 'active' :''}} }}" href="{{route('movies')}}">Movies</a></li>
                         <li><a class="{{Route::currentRouteName()=='tv' ? 'active' :''}} }}" href="{{route('tv')}}">TV</a></li>
                         <li><a class="{{Route::currentRouteName()=='games' ? 'active' :''}} }}" href="{{route('games')}}">Games</a></li>

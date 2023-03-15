@@ -1,6 +1,5 @@
 @use 'partials/variables.scss' as *;
 @import '~bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 /* RESET */
 *{
@@ -33,7 +32,7 @@ main{
 }
 
 .container{
-  width: 65%;
+  width: 75%;
 
   margin: 0 auto;
 }
@@ -208,6 +207,8 @@ header{
   flex-direction: column;
   align-items: flex-start;
 
+  position: relative;
+
   width: calc(100% / 6);
   
   padding: 6px;
@@ -240,6 +241,13 @@ header{
   &:hover{
     color: $lightblue;
   }
+}
+
+.button-box{
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
 }
 
 /* FOOTER */
@@ -415,7 +423,9 @@ section.comics{
     font-size: 1.1rem;
   }
   .row.details{
-    padding:15px 0;
+    margin-top: 50px;
+
+    padding: 100px 0 30px;
     h4, .col-3{
         color: $navyblue;
     }
@@ -564,4 +574,27 @@ section.page-strip.home{
       }
     }
   }
+}
+
+.dc-cards{
+  width: 15%;
+  height: 600px;
+
+  margin: 20px 10px;
+
+  padding: 0;
+}
+
+.add-comic{
+  width: 250px;
+
+  margin: 0 auto;
+
+  font-size: 150%;
+}
+
+.dc-cont-spec{
+  width: 50%;
+
+  margin: 0 auto;
 }

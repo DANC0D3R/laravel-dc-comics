@@ -6,8 +6,8 @@
       <nav>
         <ul class="d-flex align-items-center">
           <li class="{{Route::currentRouteName()=='characters' ? 'active' :''}}" ><a href="{{route('characters')}}">Characters</a></li>
-          <li class="{{Route::currentRouteName()=='comics' || Route::currentRouteName()=='comic-details' ? 'active' :''}}">
-            <a href="{{route('comics')}}">Comics</a></li>
+          {{-- <li class="{{Route::currentRouteName()=='comics' || Route::currentRouteName()=='comic-details' ? 'active' :''}}">
+            <a href="{{route('comics')}}">Comics</a></li> --}}
           <li class="{{Route::currentRouteName()=='movies' ? 'active' :''}}">
             <a href="{{route('movies')}}">Movies</a></li>
           <li class="{{Route::currentRouteName()=='tv' ? 'active' :''}}">
