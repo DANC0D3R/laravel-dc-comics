@@ -12,11 +12,13 @@ Tramite gli appositi comandi artisan create un model con relativa migration e un
 
 Milestone 2:
 
-Iniziate a definire le prime operazioni CRUD con le relative view:
+Definire le operazioni CRUD con le relative view:
 - index()
 - show()
 - create()
 - store()
+- Update
+- Delete
 
 BONUS:
 
