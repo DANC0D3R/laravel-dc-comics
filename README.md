@@ -20,6 +20,10 @@ Definire le operazioni CRUD con le relative view:
 - Update
 - Delete
 
-BONUS:
+BONUS 1:
 
 Creare il seeder per la tabella comics utilizzando il file in allegato.
+
+BONUS 2:
+
+Tramite javascript, quando l'utente clicca sul pulsante "delete", chiedere conferma della cancellazione, prima di eliminare l'elemento.

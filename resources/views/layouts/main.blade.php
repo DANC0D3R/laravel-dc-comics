@@ -6,7 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="author" content="Daniele Minieri">
         <title>Laravel DC Comics</title>
-
+        
+        {{-- Favicon --}}
+        <link rel="icon" type="image" href="/img/favicon.ico">
         {{-- Font --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
