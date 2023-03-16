@@ -5,15 +5,15 @@
                 <div class="col">
                     <h3>DC Comics</h3>
                     <ul>
-                        <li><a class="{{Route::currentRouteName()=='characters' ? 'active' :''}} }}" href="{{route('characters')}}">Characters</a></li>
-                        {{-- <li><a class="{{Route::currentRouteName()=='comics' || Route::currentRouteName()=='comic-details' ? 'active' :''}}" href="{{route('comics')}}">Comics</a></li> --}}
-                        <li><a class="{{Route::currentRouteName()=='movies' ? 'active' :''}} }}" href="{{route('movies')}}">Movies</a></li>
-                        <li><a class="{{Route::currentRouteName()=='tv' ? 'active' :''}} }}" href="{{route('tv')}}">TV</a></li>
-                        <li><a class="{{Route::currentRouteName()=='games' ? 'active' :''}} }}" href="{{route('games')}}">Games</a></li>
-                        <li><a class="{{Route::currentRouteName()=='collectibles' ? 'active' :''}} }}" href="{{route('collectibles')}}">Collectibles</a></li>
-                        <li><a class="{{Route::currentRouteName()=='videos' ? 'active' :''}} }}" href="{{route('videos')}}">Videos</a></li>
-                        <li><a class="{{Route::currentRouteName()=='fans' ? 'active' :''}} }}" href="{{route('fans')}}">Fans</a></li>
-                        <li><a class="{{Route::currentRouteName()=='news' ? 'active' :''}} }}" href="{{route('news')}}">News</a></li>
+                        <li><a class="{{ Route::currentRouteName()=='characters' ? 'active' :'' }} }}" href="{{ route('characters') }}">Characters</a></li>
+                        {{-- <li><a class="{{ Route::currentRouteName()=='comics' || Route::currentRouteName()=='comic-details' ? 'active' :'' }}" href="{{ route('comics') }}">Comics</a></li> --}}
+                        <li><a class="{{ Route::currentRouteName()=='movies' ? 'active' :'' }} }}" href="{{ route('movies') }}">Movies</a></li>
+                        <li><a class="{{ Route::currentRouteName()=='tv' ? 'active' :'' }} }}" href="{{ route('tv') }}">TV</a></li>
+                        <li><a class="{{ Route::currentRouteName()=='games' ? 'active' :'' }} }}" href="{{ route('games') }}">Games</a></li>
+                        <li><a class="{{ Route::currentRouteName()=='collectibles' ? 'active' :'' }} }}" href="{{ route('collectibles') }}">Collectibles</a></li>
+                        <li><a class="{{ Route::currentRouteName()=='videos' ? 'active' :'' }} }}" href="{{ route('videos') }}">Videos</a></li>
+                        <li><a class="{{ Route::currentRouteName()=='fans' ? 'active' :'' }} }}" href="{{ route('fans') }}">Fans</a></li>
+                        <li><a class="{{ Route::currentRouteName()=='news' ? 'active' :'' }} }}" href="{{ route('news') }}">News</a></li>
                     </ul>
                     <h3>Shop</h3>
                     <ul>
@@ -54,7 +54,7 @@
             </div>
 
         <div class="big-logo">
-            <img src="{{asset('img/dc-logo-bg.png')}}" alt="">
+            <img src="{{ asset('img/dc-logo-bg.png') }}" alt="">
         </div>
     </div>
     </div>
@@ -66,11 +66,11 @@
         <div class="socials">
           <span>Follow US</span>
           <ul>
-            <li><a href="#"><img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt=""></a></li>
-            <li><a href="#"><img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt=""></a></li>
-            <li><a href="#"><img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt=""></a></li>
-            <li><a href="#"><img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt=""></a></li>
-            <li><a href="#"><img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt=""></a></li>
+            <li><a href="#"><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt=""></a></li>
           </ul>
         </div>
       </div>

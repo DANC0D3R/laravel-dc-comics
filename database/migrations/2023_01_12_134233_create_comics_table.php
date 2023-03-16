@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('slug');
             $table->longText('description');
-            $table->string('thumb');
+            $table->string('thumb')->default('https://static.posters.cz/image/1300/poster/dc-comics-rebirth-i80856.jpg')->nullable();
             $table->string('price', 10);
             $table->string('series');
             $table->string('sale_date');
