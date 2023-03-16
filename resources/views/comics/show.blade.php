@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('page-title')
+{{ $comic->title }}
+@endsection
+
 @section('jumbo')
     <section class="jumbo"></section>
 @endsection

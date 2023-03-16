@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="author" content="Daniele Minieri">
-        <title>Laravel DC Comics</title>
+        <title>Laravel DC Comics | @yield('page-title')</title>
         
         {{-- Favicon --}}
         <link rel="icon" type="image" href="/img/favicon.ico">

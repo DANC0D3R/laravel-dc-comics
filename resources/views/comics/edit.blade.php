@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('page-title')
+Modifica
+@endsection
+
 @section('jumbo')
     <section class="jumbo"></section>
 @endsection
