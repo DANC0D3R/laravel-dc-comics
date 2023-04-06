@@ -37,7 +37,7 @@ Aggiungi
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Sale date</label>
-            <input type="text" class="form-control @error('sale_date') is-invalid @enderror" id="exampleFormControlInput3" placeholder="Insert a valid date in format YYYY-MM-DD" name="sale_date" value="{{ old('sale_date') }}">
+            <input type="text" class="form-control @error('sale_date') is-invalid @enderror" id="exampleFormControlInput3" placeholder="Inserisci la data nel formato valido: YYYY-MM-DD" name="sale_date" value="{{ old('sale_date') }}">
             @error('sale_date')
             <div class="invalid-feedback">
                 {{ $message }}
