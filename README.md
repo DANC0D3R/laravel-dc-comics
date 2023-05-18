@@ -41,3 +41,6 @@ Aggiungere le validazioni in modo da rendere più stabile il vostro gestionale d
 BONUS:
 - validare gli input ricevuti in fase di creazione e modifica, rispondendo con errori chiari e in italiano.
 - utilizzare le Request personalizzate per validare i dati
+
+<h1 align="center">Anteprima<h1>
+<div align="center"><img src="Anteprima.JPG" width="800">
